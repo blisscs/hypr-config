@@ -1,7 +1,7 @@
 ## Setup Instruction
 1. Install hyprland, hyprlock, and xkeyboard-config. 
 ```sh
-$ sudo pacman -S hyprland hyprlock xkeyboard-config
+$ sudo pacman -S hyprland hyprlock xkeyboard-config swaync
 ```
 2. Link files to under ~/.config/hypr
 ```sh
