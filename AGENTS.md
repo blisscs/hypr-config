@@ -3,7 +3,7 @@
 ## Build/Test Commands
 This is a Hyprland configuration repository with no build/test commands.
 - Install: `ln -s $PWD/* ~/.config/hypr`
-- Validate: `hyprctl config reload` to test configuration changes
+- Validate: `hyprctl reload` to test configuration changes
 
 ## Code Style Guidelines
 - File format: Hyprland configuration syntax (key = value)
