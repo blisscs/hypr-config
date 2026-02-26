@@ -9,18 +9,18 @@ This repository contains a reinitialized Hyprland configuration based on the cur
    - Rofi (application launcher)
    - swaylock (lock screen)
    - gvfs-backends (network storage support)
-   - ashell (custom script - should be placed in ~/.local/bin/)
+   - waybar (status bar for Wayland)
    
    Use your distribution's package manager (pacman, apt, dnf, etc.)
    
    Example for Arch Linux:
    ```sh
-   sudo pacman -S hyprland alacritty thunar rofi swaylock gvfs gvfs-smb
+   sudo pacman -S hyprland alacritty thunar rofi swaylock gvfs gvfs-smb waybar
    ```
    
    Example for Ubuntu:
    ```sh
-   sudo apt install thunar gvfs-backends gvfs-fuse swaylock
+   sudo apt install thunar gvfs-backends gvfs-fuse swaylock waybar
    ```
 
 2. Link configuration files to ~/.config/hypr:
